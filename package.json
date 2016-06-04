@@ -1,11 +1,14 @@
 {
-  "name": "i3blocks_config_vars",
-  "version": "1.0.0",
-  "description": "script thing to allow variables in i3blocks config (very useful for colors)",
-  "main": "index.js",
-  "scripts": {
+    "name": "i3blocks_config_vars",
+    "version": "1.0.0",
+    "description": "script thing to allow variables in i3blocks config (very useful for colors)",
+    "main": "index.js",
+    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "David Haruch",
-  "license": "MIT"
+    },
+    "author": "David Haruch",
+    "license": "MIT",
+    "jshintConfig": {
+        "esversion": 6
+    }
 }
